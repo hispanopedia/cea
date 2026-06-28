@@ -198,7 +198,7 @@ Notation: zero-padded, dot-separated segments, 2 digits per level (01, 09.03, 10
 - 13.10 Veterinaria
 - 13.11 Historia de la medicina
 
-## 14 Geografía (la disciplina)
+## 14 Geografía
 - 14.01 Geografía física
 - 14.02 Geografía humana
 - 14.03 Geografía regional
