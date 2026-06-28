@@ -1,0 +1,454 @@
+# CEA — Clasificación Enciclopédica Abierta (Open Encyclopedic Classification)
+Notation: zero-padded, dot-separated segments, 2 digits per level (01, 09.03, 10.01.02). Up to 99 branches per level; unlimited depth; sorts as plain text. NOT decimal (no 10-class cap).
+
+## 01 Información, documentación y comunicación
+- 01.01 Biblioteconomía y archivística
+- 01.02 Documentación y obras de referencia (enciclopedias, diccionarios, bibliografías)
+- 01.03 Ciencia de la información
+- 01.04 Informática y computación
+  - 01.04.01 Hardware
+  - 01.04.02 Software
+  - 01.04.03 Programación
+  - 01.04.04 Sistemas operativos
+  - 01.04.05 Bases de datos
+  - 01.04.06 Inteligencia artificial
+  - 01.04.07 Redes
+  - 01.04.08 Computación distribuida
+- 01.05 Internet y tecnologías digitales
+- 01.06 Periodismo y medios de comunicación
+- 01.07 Publicidad y comunicación corporativa
+- 01.08 Museología y patrimonio documental
+
+## 02 Filosofía y pensamiento
+- 02.01 Metafísica y ontología
+- 02.02 Epistemología y lógica
+- 02.03 Ética y filosofía moral
+- 02.04 Estética
+- 02.05 Filosofía política y social
+- 02.06 Corrientes y escuelas filosóficas
+  - 02.06.01 Escuela de Salamanca
+  - 02.06.02 Krausismo y pensamiento español
+- 02.07 Filosofía por época (antigua, medieval, moderna, contemporánea)
+
+## 03 Religión, mitología y creencias
+- 03.01 Teología y doctrina
+- 03.02 Cristianismo
+- 03.03 Judaísmo
+- 03.04 Islam
+- 03.05 Religiones orientales
+- 03.06 Religiones indígenas y de la Antigüedad
+- 03.07 Iglesias, órdenes e instituciones religiosas
+- 03.08 Liturgia, ritos y prácticas
+- 03.09 Mitología
+- 03.10 Creencias populares, esoterismo y nuevos movimientos
+
+## 04 Ciencias sociales y política
+- 04.01 Sociología
+- 04.02 Antropología y etnología
+- 04.03 Psicología
+- 04.04 Ciencia política
+- 04.05 Gobierno e instituciones políticas
+- 04.06 Administración pública
+- 04.07 Partidos y movimientos políticos
+- 04.08 Relaciones internacionales y diplomacia
+- 04.09 Demografía y estudios de población
+- 04.10 Opinión pública y comunicación social
+
+## 05 Derecho
+- 05.01 Teoría y filosofía del derecho
+- 05.02 Derecho constitucional
+- 05.03 Derecho civil
+- 05.04 Derecho penal
+- 05.05 Derecho administrativo
+- 05.06 Derecho mercantil y empresarial
+- 05.07 Derecho internacional
+- 05.08 Derecho laboral
+- 05.09 Historia del derecho y derecho histórico
+- 05.10 Instituciones judiciales
+
+## 06 Economía, empresa y trabajo
+- 06.01 Teoría económica
+- 06.02 Macroeconomía
+- 06.03 Microeconomía
+- 06.04 Historia económica
+- 06.05 Finanzas y banca
+- 06.06 Empresa y administración
+- 06.07 Contabilidad
+- 06.08 Marketing y comercio
+- 06.09 Trabajo y relaciones laborales
+- 06.10 Economía sectorial (agraria, industrial, servicios)
+
+## 07 Educación
+- 07.01 Pedagogía y teoría educativa
+- 07.02 Sistemas y políticas educativas
+- 07.03 Instituciones educativas (universidades, colegios, escuelas)
+- 07.04 Educación superior
+- 07.05 Educación primaria y secundaria
+- 07.06 Historia de la educación
+- 07.07 Didáctica y métodos
+- 07.08 Educación especial y no formal
+
+## 08 Lengua y literatura
+- 08.01 Lingüística general
+- 08.02 Gramática, fonética y ortografía
+- 08.03 Lenguas del mundo
+- 08.04 Lenguas indígenas
+- 08.05 Filología
+- 08.06 Literatura por época
+  - 08.06.01 Literatura medieval
+  - 08.06.02 Siglo de Oro
+  - 08.06.03 Ilustración y Romanticismo
+  - 08.06.04 Realismo y siglo XIX
+  - 08.06.05 Literatura contemporánea
+- 08.07 Géneros literarios (novela, poesía, teatro, ensayo)
+- 08.08 Movimientos literarios
+  - 08.08.01 Modernismo
+  - 08.08.02 Generación del 98
+  - 08.08.03 Generación del 27
+  - 08.08.04 Novecentismo
+- 08.09 Obras literarias
+- 08.10 Crítica y estudios literarios
+- 08.11 Retórica y métrica
+
+## 09 Artes, espectáculos y ocio
+- 09.01 Artes plásticas (pintura, escultura, grabado, dibujo)
+- 09.02 Arquitectura
+  - 09.02.01 Arquitectura mudéjar
+  - 09.02.02 Plateresco
+  - 09.02.03 Arquitectura colonial y virreinal
+- 09.03 Música
+  - 09.03.01 Flamenco
+  - 09.03.02 Zarzuela
+  - 09.03.03 Folclore hispanoamericano
+- 09.04 Cine y audiovisual
+- 09.05 Teatro y artes escénicas
+  - 09.05.01 Teatro del Siglo de Oro
+- 09.06 Danza
+- 09.07 Fotografía
+- 09.08 Artes decorativas, diseño y moda
+- 09.09 Espectáculos y entretenimiento (circo, variedades, parques)
+- 09.10 Gastronomía
+- 09.11 Juegos y ocio (mesa, videojuegos, tradicionales)
+- 09.12 Cultura popular, fiestas y tradiciones
+
+## 10 Deporte
+- 10.01 Deportes de pelota
+  - 10.01.01 Fútbol
+  - 10.01.02 Baloncesto
+  - 10.01.03 Otros deportes de pelota
+- 10.02 Atletismo y gimnasia
+- 10.03 Deportes de combate
+  - 10.03.01 Boxeo
+  - 10.03.02 Artes marciales
+  - 10.03.03 Esgrima
+- 10.04 Deportes acuáticos y náuticos
+  - 10.04.01 Natación
+  - 10.04.02 Vela
+  - 10.04.03 Remo y piragüismo
+- 10.05 Ciclismo
+- 10.06 Deportes de motor
+  - 10.06.01 Automovilismo
+  - 10.06.02 Motociclismo
+- 10.07 Deportes extremos
+- 10.08 Deportes de montaña y aire libre
+- 10.09 Deportes ecuestres
+- 10.10 Competiciones y eventos (Juegos Olímpicos, mundiales, ligas)
+- 10.11 Clubes, federaciones e instalaciones deportivas
+
+## 11 Ciencias formales y naturales
+- 11.01 Matemáticas
+- 11.02 Estadística
+- 11.03 Física
+- 11.04 Astronomía y astrofísica
+- 11.05 Química
+- 11.06 Geología y ciencias de la Tierra
+- 11.07 Meteorología y climatología
+- 11.08 Oceanografía
+- 11.09 Biología
+- 11.10 Botánica
+- 11.11 Zoología
+- 11.12 Paleontología
+- 11.13 Microbiología
+- 11.14 Genética
+- 11.15 Ecología y medio ambiente
+
+## 12 Tecnología, ingeniería e industria
+- 12.01 Ingeniería (civil, mecánica, eléctrica, química)
+- 12.02 Industria y manufactura
+- 12.03 Energía
+- 12.04 Construcción e infraestructuras
+- 12.05 Transporte y vehículos
+- 12.06 Telecomunicaciones
+- 12.07 Agricultura, ganadería y pesca
+- 12.08 Alimentación y tecnología de alimentos
+- 12.09 Tecnología militar y armamento
+- 12.10 Minería y metalurgia
+- 12.11 Náutica y tecnología marítima
+
+## 13 Medicina y ciencias de la salud
+- 13.01 Anatomía y fisiología
+- 13.02 Medicina clínica y especialidades
+- 13.03 Enfermedades y trastornos
+- 13.04 Cirugía
+- 13.05 Farmacia y farmacología
+- 13.06 Enfermería
+- 13.07 Salud pública y epidemiología
+- 13.08 Psiquiatría y salud mental
+- 13.09 Odontología
+- 13.10 Veterinaria
+- 13.11 Historia de la medicina
+
+## 14 Geografía (la disciplina)
+- 14.01 Geografía física
+- 14.02 Geografía humana
+- 14.03 Geografía regional
+- 14.04 Climatología y biogeografía
+- 14.05 Cartografía, geodesia y SIG
+- 14.06 Métodos y conceptos geográficos
+
+## 15 Entidades geográficas
+- 15.01 Países y Estados
+  - 15.01.01 Países de África
+    - 15.01.01.01 Angola
+    - 15.01.01.02 Argelia
+    - 15.01.01.03 Benín
+    - 15.01.01.04 Botsuana
+    - 15.01.01.05 Burkina Faso
+    - 15.01.01.06 Burundi
+    - 15.01.01.07 Cabo Verde
+    - 15.01.01.08 Camerún
+    - 15.01.01.09 Chad
+    - 15.01.01.10 Comoras
+    - 15.01.01.11 Costa de Marfil
+    - 15.01.01.12 Egipto
+    - 15.01.01.13 Eritrea
+    - 15.01.01.14 Esuatini
+    - 15.01.01.15 Etiopía
+    - 15.01.01.16 Gabón
+    - 15.01.01.17 Gambia
+    - 15.01.01.18 Ghana
+    - 15.01.01.19 Guinea
+    - 15.01.01.20 Guinea Ecuatorial
+    - 15.01.01.21 Guinea-Bisáu
+    - 15.01.01.22 Kenia
+    - 15.01.01.23 Lesoto
+    - 15.01.01.24 Liberia
+    - 15.01.01.25 Libia
+    - 15.01.01.26 Madagascar
+    - 15.01.01.27 Malaui
+    - 15.01.01.28 Malí
+    - 15.01.01.29 Marruecos
+    - 15.01.01.30 Mauricio
+    - 15.01.01.31 Mauritania
+    - 15.01.01.32 Mozambique
+    - 15.01.01.33 Namibia
+    - 15.01.01.34 Níger
+    - 15.01.01.35 Nigeria
+    - 15.01.01.36 República Centroafricana
+    - 15.01.01.37 República del Congo
+    - 15.01.01.38 República Democrática del Congo
+    - 15.01.01.39 Ruanda
+    - 15.01.01.40 Santo Tomé y Príncipe
+    - 15.01.01.41 Senegal
+    - 15.01.01.42 Seychelles
+    - 15.01.01.43 Sierra Leona
+    - 15.01.01.44 Somalia
+    - 15.01.01.45 Sudáfrica
+    - 15.01.01.46 Sudán
+    - 15.01.01.47 Sudán del Sur
+    - 15.01.01.48 Tanzania
+    - 15.01.01.49 Togo
+    - 15.01.01.50 Túnez
+    - 15.01.01.51 Uganda
+    - 15.01.01.52 Yibuti
+    - 15.01.01.53 Zambia
+    - 15.01.01.54 Zimbabue
+  - 15.01.02 Países de América
+    - 15.01.02.01 Antigua y Barbuda
+    - 15.01.02.02 Argentina
+    - 15.01.02.03 Bahamas
+    - 15.01.02.04 Barbados
+    - 15.01.02.05 Belice
+    - 15.01.02.06 Bolivia
+    - 15.01.02.07 Brasil
+    - 15.01.02.08 Canadá
+    - 15.01.02.09 Chile
+    - 15.01.02.10 Colombia
+    - 15.01.02.11 Costa Rica
+    - 15.01.02.12 Cuba
+    - 15.01.02.13 Dominica
+    - 15.01.02.14 Ecuador
+    - 15.01.02.15 El Salvador
+    - 15.01.02.16 Estados Unidos
+    - 15.01.02.17 Granada
+    - 15.01.02.18 Guatemala
+    - 15.01.02.19 Guyana
+    - 15.01.02.20 Haití
+    - 15.01.02.21 Honduras
+    - 15.01.02.22 Jamaica
+    - 15.01.02.23 México
+    - 15.01.02.24 Nicaragua
+    - 15.01.02.25 Panamá
+    - 15.01.02.26 Paraguay
+    - 15.01.02.27 Perú
+    - 15.01.02.28 Puerto Rico
+    - 15.01.02.29 República Dominicana
+    - 15.01.02.30 San Cristóbal y Nieves
+    - 15.01.02.31 San Vicente y las Granadinas
+    - 15.01.02.32 Santa Lucía
+    - 15.01.02.33 Surinam
+    - 15.01.02.34 Trinidad y Tobago
+    - 15.01.02.35 Uruguay
+    - 15.01.02.36 Venezuela
+  - 15.01.03 Países de Asia
+    - 15.01.03.01 Afganistán
+    - 15.01.03.02 Arabia Saudita
+    - 15.01.03.03 Armenia
+    - 15.01.03.04 Azerbaiyán
+    - 15.01.03.05 Bangladés
+    - 15.01.03.06 Baréin
+    - 15.01.03.07 Birmania
+    - 15.01.03.08 Brunéi
+    - 15.01.03.09 Bután
+    - 15.01.03.10 Camboya
+    - 15.01.03.11 Catar
+    - 15.01.03.12 China
+    - 15.01.03.13 Chipre
+    - 15.01.03.14 Corea del Norte
+    - 15.01.03.15 Corea del Sur
+    - 15.01.03.16 Emiratos Árabes Unidos
+    - 15.01.03.17 Filipinas
+    - 15.01.03.18 Georgia
+    - 15.01.03.19 India
+    - 15.01.03.20 Indonesia
+    - 15.01.03.21 Irak
+    - 15.01.03.22 Irán
+    - 15.01.03.23 Israel
+    - 15.01.03.24 Japón
+    - 15.01.03.25 Jordania
+    - 15.01.03.26 Kazajistán
+    - 15.01.03.27 Kirguistán
+    - 15.01.03.28 Kuwait
+    - 15.01.03.29 Laos
+    - 15.01.03.30 Líbano
+    - 15.01.03.31 Malasia
+    - 15.01.03.32 Maldivas
+    - 15.01.03.33 Mongolia
+    - 15.01.03.34 Nepal
+    - 15.01.03.35 Omán
+    - 15.01.03.36 Pakistán
+    - 15.01.03.37 Palestina
+    - 15.01.03.38 Singapur
+    - 15.01.03.39 Siria
+    - 15.01.03.40 Sri Lanka
+    - 15.01.03.41 Tailandia
+    - 15.01.03.42 Tayikistán
+    - 15.01.03.43 Timor Oriental
+    - 15.01.03.44 Turkmenistán
+    - 15.01.03.45 Turquía
+    - 15.01.03.46 Uzbekistán
+    - 15.01.03.47 Vietnam
+    - 15.01.03.48 Yemen
+  - 15.01.04 Países de Europa
+    - 15.01.04.01 Albania
+    - 15.01.04.02 Alemania
+    - 15.01.04.03 Andorra
+    - 15.01.04.04 Austria
+    - 15.01.04.05 Bélgica
+    - 15.01.04.06 Bielorrusia
+    - 15.01.04.07 Bosnia y Herzegovina
+    - 15.01.04.08 Bulgaria
+    - 15.01.04.09 Ciudad del Vaticano
+    - 15.01.04.10 Croacia
+    - 15.01.04.11 Dinamarca
+    - 15.01.04.12 Eslovaquia
+    - 15.01.04.13 Eslovenia
+    - 15.01.04.14 España
+    - 15.01.04.15 Estonia
+    - 15.01.04.16 Finlandia
+    - 15.01.04.17 Francia
+    - 15.01.04.18 Grecia
+    - 15.01.04.19 Hungría
+    - 15.01.04.20 Irlanda
+    - 15.01.04.21 Islandia
+    - 15.01.04.22 Italia
+    - 15.01.04.23 Letonia
+    - 15.01.04.24 Liechtenstein
+    - 15.01.04.25 Lituania
+    - 15.01.04.26 Luxemburgo
+    - 15.01.04.27 Macedonia del Norte
+    - 15.01.04.28 Malta
+    - 15.01.04.29 Moldavia
+    - 15.01.04.30 Mónaco
+    - 15.01.04.31 Montenegro
+    - 15.01.04.32 Noruega
+    - 15.01.04.33 Países Bajos
+    - 15.01.04.34 Polonia
+    - 15.01.04.35 Portugal
+    - 15.01.04.36 Reino Unido
+    - 15.01.04.37 República Checa
+    - 15.01.04.38 Rumanía
+    - 15.01.04.39 Rusia
+    - 15.01.04.40 San Marino
+    - 15.01.04.41 Serbia
+    - 15.01.04.42 Suecia
+    - 15.01.04.43 Suiza
+    - 15.01.04.44 Ucrania
+  - 15.01.05 Países de Oceanía
+    - 15.01.05.01 Australia
+    - 15.01.05.02 Estados Federados de Micronesia
+    - 15.01.05.03 Fiyi
+    - 15.01.05.04 Islas Marshall
+    - 15.01.05.05 Islas Salomón
+    - 15.01.05.06 Kiribati
+    - 15.01.05.07 Nauru
+    - 15.01.05.08 Nueva Zelanda
+    - 15.01.05.09 Palaos
+    - 15.01.05.10 Papúa Nueva Guinea
+    - 15.01.05.11 Samoa
+    - 15.01.05.12 Tonga
+    - 15.01.05.13 Tuvalu
+    - 15.01.05.14 Vanuatu
+- 15.02 Divisiones administrativas (regiones, provincias, departamentos, comarcas)
+- 15.03 Ciudades
+- 15.04 Municipios y localidades
+- 15.05 Entidades menores de población (pedanías, aldeas, barrios)
+- 15.06 Accidentes geográficos (montañas, valles, costas, islas, cabos)
+- 15.07 Hidrografía (ríos, lagos, mares, embalses)
+- 15.08 Espacios naturales protegidos
+- 15.09 Lugares y puntos de interés
+
+## 16 Historia
+- 16.01 Historiografía y metodología
+- 16.02 Prehistoria
+- 16.03 Edad Antigua
+- 16.04 Edad Media
+- 16.05 Edad Moderna
+  - 16.05.01 Descubrimiento y conquista de América
+  - 16.05.02 Monarquía Hispánica
+  - 16.05.03 Época virreinal
+- 16.06 Edad Contemporánea
+  - 16.06.01 Independencias hispanoamericanas
+- 16.07 Acontecimientos y hechos históricos
+- 16.08 Guerras, batallas y conflictos
+- 16.09 Tratados y documentos históricos
+- 16.10 Arqueología
+- 16.11 Cronología y efemérides
+- 16.12 Historia temática (política, social, económica, cultural)
+- 16.13 Patrimonio histórico
+
+## 17 Biografías
+- 17.01 Escritores y filólogos
+- 17.02 Artistas
+- 17.03 Músicos y compositores
+- 17.04 Actores y profesionales del espectáculo
+- 17.05 Deportistas
+- 17.06 Científicos e investigadores
+- 17.07 Políticos y gobernantes
+- 17.08 Militares
+- 17.09 Religiosos
+- 17.10 Realeza y nobleza
+- 17.11 Empresarios y profesionales
+- 17.12 Exploradores, navegantes y conquistadores
+- 17.13 Filósofos y pensadores
+- 17.14 Otras personas
