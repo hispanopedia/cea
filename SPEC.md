@@ -1,40 +1,42 @@
-# CEA Specification (v0.1.0)
+**Español** · [English](SPEC.en.md)
 
-## 1. Scope
-CEA (Clasificación Enciclopédica Abierta / Open Encyclopedic Classification) is a numeric, hierarchical, browsable classification for knowledge repositories. It assigns each item one primary class (and optionally secondary classes) describing **what the item is**.
+# Especificación de CEA (v0.1.0)
 
-## 2. Notation
-- Codes are **zero-padded, dot-separated segments, two digits per segment**: `09`, `09.03`, `10.01.02`, `15.01.02.16`.
-- Each segment is a level of the hierarchy; reading left to right walks the tree from general to specific.
-- Up to **99 branches per level** (`01`–`99`); **unlimited depth** (add segments as needed).
-- Codes sort correctly as plain text because every segment is fixed width.
-- **Not decimal**: there is no base-10 cap on the number of top-level classes. The system grows in breadth (more top classes) and depth (more segments) as a corpus requires.
+## 1. Ámbito
+CEA (Clasificación Enciclopédica Abierta) es una clasificación numérica, jerárquica y navegable para repositorios de conocimiento. Asigna a cada elemento una clase principal (y, opcionalmente, clases secundarias) que describe **qué es** el elemento.
 
-## 3. Design rules
-### 3.1 Subject-only codes
-A CEA code describes the *subject/nature* of an item, never its place or time. Do **not** create geographic variants of subject classes (no "geología ibérica", no "ingeniería hispana"). Geographic scope is expressed by class **15 (Entidades geográficas)** and by the host system's own categories/metadata; period is expressed by class **16 (Historia)** and metadata.
+## 2. Notación
+- Los códigos son **segmentos de dos dígitos con cero a la izquierda, separados por puntos**: `09`, `09.03`, `10.01.02`, `15.01.02.16`.
+- Cada segmento es un nivel de la jerarquía; leído de izquierda a derecha recorre el árbol de lo general a lo específico.
+- Hasta **99 ramas por nivel** (`01`–`99`); **profundidad ilimitada** (se añaden segmentos según haga falta).
+- Los códigos se ordenan correctamente como texto plano porque cada segmento tiene anchura fija.
+- **No es decimal**: no hay límite de base 10 en el número de clases superiores. El sistema crece en amplitud (más clases superiores) y en profundidad (más segmentos) según lo requiera el corpus.
 
-### 3.2 Entity vs. discipline
-The *thing* and the *field that studies it* are separate objects in separate lineages:
-- a **person** → 17 Biografías (by profession); the **study of their field** → the relevant subject class.
-- a **specific place or natural feature** (a city, a river, a mountain, a park) → 15 Entidades geográficas; **geography as a discipline** → 14 Geografía.
-- a **work** (book, treatise, film) → *its subject* (an engineering treatise → 12, a novel → 08); never blanket "literature" just because it is a book.
+## 3. Reglas de diseño
+### 3.1 Códigos solo de materia
+Un código CEA describe la *materia o naturaleza* de un elemento, nunca su lugar ni su tiempo. **No** se crean variantes geográficas de las clases de materia (nada de «geología ibérica» ni «ingeniería hispana»). El ámbito geográfico se expresa con la clase **15 (Entidades geográficas)** y con las categorías/metadatos del sistema anfitrión; el período, con la clase **16 (Historia)** y metadatos.
 
-### 3.3 Multi-class
-An item may carry **one primary** CEA code plus **up to two secondary** codes, for genuinely cross-cutting topics (e.g. a historic church → 09.02 Arquitectura + 03 Religión + 16 Historia). Hierarchy membership is implied: tagging a child code implies membership of all its ancestors.
+### 3.2 Entidad frente a disciplina
+La *cosa* y el *campo que la estudia* son objetos distintos en linajes distintos:
+- una **persona** → 17 Biografías (por profesión); el **estudio de su campo** → la clase de materia correspondiente.
+- un **lugar o accidente natural concreto** (una ciudad, un río, una montaña, un parque) → 15 Entidades geográficas; la **geografía como disciplina** → 14 Geografía.
+- una **obra** (libro, tratado, película) → *su materia* (un tratado de ingeniería → 12, una novela → 08); nunca un genérico «literatura» por el mero hecho de ser un libro.
 
-### 3.4 Person ↔ subject cross-reference
-Biography subclasses (17.x) correspond thematically to the subject classes (e.g. 17.01 Escritores ↔ 08 Lengua y literatura). A biography may carry its field as a secondary code so that browsing the subject surfaces both works and the people who made them.
+### 3.3 Multiclase
+Un elemento puede llevar **una clase principal** y **hasta dos secundarias**, para temas genuinamente transversales (p. ej. una iglesia histórica → 09.02 Arquitectura + 03 Religión + 16 Historia). La pertenencia jerárquica es implícita: etiquetar un código hijo implica pertenecer a todos sus ancestros.
 
-## 4. The class structure
-The authoritative class list (17 top classes, their subsections and sub-subsections) is maintained in `TAXONOMY.md`. Implementations should treat that file as the source of truth for the current version.
+### 3.4 Referencia cruzada persona ↔ materia
+Las subclases de biografía (17.x) se corresponden temáticamente con las clases de materia (p. ej. 17.01 Escritores ↔ 08 Lengua y literatura). Una biografía puede llevar su campo como código secundario, de modo que al explorar la materia aparezcan tanto las obras como las personas que las crearon.
 
-## 5. Implementation in MediaWiki (reference)
-- Each CEA node is a category `Categoría:CEA <code> <name>`, nested under its parent code's category.
-- Articles are tagged with their primary (and optional secondary) CEA category.
-- Codes are assigned by a crosswalk from existing signals (infobox type, categories). See `reference-implementation/`.
-- Items with no confident assignment go to a `CEA sin asignar` tracking category — never silently dropped.
+## 4. La estructura de clases
+La lista autoritativa de clases (17 clases superiores, sus subsecciones y sub-subsecciones) se mantiene en `TAXONOMY.md`. Las implementaciones deben tratar ese archivo como la fuente de verdad de la versión vigente.
 
-## 6. Governance & versioning
-- Semantic versioning. Additive refinements bump minor; renumberings that break existing codes bump major.
-- Changes are recorded in `CHANGELOG.md`.
+## 5. Implementación en MediaWiki (referencia)
+- Cada nodo CEA es una categoría `Categoría:CEA <código> <nombre>`, anidada bajo la categoría del código madre.
+- Los artículos se etiquetan con su categoría CEA principal (y las secundarias opcionales).
+- Los códigos se asignan mediante una correspondencia a partir de señales existentes (tipo de ficha, categorías). Véase `reference-implementation/`.
+- Los elementos sin asignación fiable van a una categoría de seguimiento `CEA sin asignar`; nunca se descartan en silencio.
+
+## 6. Gobernanza y versionado
+- Versionado semántico. Los refinamientos aditivos suben la versión menor; las renumeraciones que rompen códigos existentes suben la mayor.
+- Los cambios se registran en `CHANGELOG.md`.
